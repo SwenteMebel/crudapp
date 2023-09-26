@@ -13,8 +13,6 @@
     <!--Header-->
     <?php include_once "header.php";?>
     
-    <!--Main-->
-    <?php include_once "main.php"?>
     
 
     </body>

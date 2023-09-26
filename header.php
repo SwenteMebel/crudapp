@@ -8,13 +8,8 @@ echo <<<_END
 
     <div class="navbar">
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="products.php">Product</a></li>
     </div>
 </div>
 
