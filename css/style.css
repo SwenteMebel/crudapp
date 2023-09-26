@@ -1,0 +1,48 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'EB Garamond', serif;
+}
+
+.page-header{
+background-color: rgb(82, 88, 88);
+display: grid;
+grid-template-columns: 15% 70%;
+border-bottom: 2px solid rgb(255, 0, 0);
+opacity: 0.4;
+}
+.page-header:hover{
+    opacity: 1;
+}
+.logo{
+background-color: black;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.navbar{
+background-color: rgb(82, 88, 88);
+
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+li{
+    display: inline;
+}
+li > a{
+    text-decoration: none;
+    font-family: 'EB Garamond', serif;
+    font-size: 18px;
+    color:beige;
+}
+li > a:hover{
+    background-color: rgb(182, 174, 189);
+    border: 2px solid black;
+    padding: 3px 10px;
+    border-radius: 4px;
+    color: rgb(0, 0, 0);
+  
+}
