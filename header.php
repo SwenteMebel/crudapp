@@ -9,7 +9,7 @@ echo <<<_END
     <div class="navbar">
         <ul>
             <li><a href="index.php">Home</a></li>
-            <li><a href="products.php">Product</a></li>
+            <li><a href="products.php">Add Product</a></li>
     </div>
 </div>
 

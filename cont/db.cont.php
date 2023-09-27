@@ -6,7 +6,7 @@ $dbname = "crudapp";
 $user = "root";
 $pass = "";
 $chrs = 'utf8mb4';
-$attr = "mysql:host=$host;dbname=$data;charset=$chrs";
+$attr = "mysql:host=$host;dbname=$dbname;charset=$chrs";
 $opts =
 [
   PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
