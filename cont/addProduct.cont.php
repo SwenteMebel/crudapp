@@ -14,4 +14,3 @@ if(isset($_POST['addProduct']) && isset($_POST['price'])){
     header('Location: ../products.php');
     die("Product $product is added with the price € $price");
 }
-
