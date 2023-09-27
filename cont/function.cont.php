@@ -7,3 +7,4 @@ function editValue($pdo, $var){
     $result = $pdo->quote($var);          // This adds single quotes
     return str_replace("'", "", $result); 
 }
+

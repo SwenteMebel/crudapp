@@ -13,7 +13,7 @@
     <!--Header-->
     <?php include_once "header.php";?>
 
-    
+    <?php include_once "cont/showProduct.cont.php";?>
 
     </body>
 </html>

@@ -12,5 +12,5 @@ if(isset($_POST['addProduct']) && isset($_POST['price'])){
 
     $stmt->execute([$product, $price]);
     header('Location: ../products.php');
-    die("Product $product is added with the price € $price");
+   
 }

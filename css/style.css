@@ -43,6 +43,9 @@ li > a:hover{
     border: 2px solid black;
     padding: 3px 10px;
     border-radius: 4px;
-    color: rgb(0, 0, 0);
-  
+    color: rgb(0, 0, 0); 
+}
+table, th, td {
+    border: 1px solid black;
+   
 }
