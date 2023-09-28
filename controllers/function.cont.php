@@ -10,7 +10,7 @@ function editValue($pdo, $var){
 }
 
 
-function get_post($pdo, $str){
-    return str_replace("'", "", $str);
-    return $pdo->query($_POST[$str]);
+function get_post($pdo, $var){
+    return str_replace("'", "", $var);
+    return $pdo->quote($_POST[$var]);
 }

@@ -6,9 +6,9 @@ $query = "SELECT * FROM product";
 $result = $pdo->query($query);
 
 
-echo "<table><tr> <th>id</th> <th>Product</th> <th>Price</th> <th>Edit</th> <th>Remove</th></tr>";
+echo "<table><tr> <th>Number</th> <th>Product</th> <th>Price</th> <th>Edit</th> <th>Remove</th></tr>";
 
-while ($row = $result->fetch(PDO::FETCH_BOTH)){
+while ($row = $result->fetch()){
     $id = htmlspecialchars($row['id']);
     $prod = htmlspecialchars($row['name']);
     $pric = htmlspecialchars($row['price']);

@@ -6,9 +6,8 @@ include_once '../controllers/function.cont.php'; // Verbinding met de functie pa
 
 
 if(isset($_POST['delete']) && isset($_POST['id'])){
-    $id = get_post($pdo, "id"); 
-    $query = "DELETE FROM product WHERE name=$id";
-    $result = $pdo->quote($query);
+    $id = get_post($pdo, $_POST['id']); 
+    $query = "DELETE FROM product WHERE id=$id";
+    $result = $pdo->query($query);
     header("Location: ../index.php");
 }
-
