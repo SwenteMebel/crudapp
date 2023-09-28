@@ -3,7 +3,7 @@ echo <<<_END
 
 <div class="page-header">
     <div class="logo">
-        <a href="index.html">Logo.</a>
+        <a href="../index.html">Logo.</a>
     </div>
 
     <div class="navbar">

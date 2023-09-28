@@ -9,11 +9,11 @@
     <link rel='stylesheet' href="css/style.css">
     </head>
     <body>
-
+   
     <!--Header-->
-    <?php include_once "header.php";?>
+    <?php include_once "view/header.php";?>
 
-    <?php include_once "cont/showProduct.cont.php";?>
+    <?php include_once "controllers/showProduct.cont.php";?>
 
     </body>
 </html>

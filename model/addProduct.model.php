@@ -1,6 +1,9 @@
 <?php 
-include_once "db.cont.php";
-include_once "function.cont.php";
+
+// Deze pagina zorgt ervoor dat de producten toegevoegd worden aan de DB dmv placeholders. 
+// Ook word hier de functie editValue aangeroepen die de quotes verwijderd. 
+include_once "db.model.php";
+include_once "../controllers/function.cont.php";
 
 if(isset($_POST['addProduct']) && isset($_POST['price'])){
     $product = editValue($pdo, $_POST['addProduct']);
@@ -12,5 +15,5 @@ if(isset($_POST['addProduct']) && isset($_POST['price'])){
 
     $stmt->execute([$product, $price]);
     header('Location: ../products.php');
-   
+    exit();   
 }

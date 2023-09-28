@@ -1,9 +1,9 @@
 <?php
-
 // connectie maken met DB
+
 $host = "localhost";
-$dbname = "crudapp";
-$user = "root";
+$dbname = "crudapp"; //DB naam
+$user = "root"; 
 $pass = "";
 $chrs = 'utf8mb4';
 $attr = "mysql:host=$host;dbname=$dbname;charset=$chrs";

@@ -11,24 +11,24 @@
     <body>
 
     <!--Header-->
-    <?php include_once "header.php";?>
+    <?php include_once "view/header.php";?>
 
 
-    <!---->
+    <!-- Form dat toevoegen van artikelen in de DB -->
     <div class="addform">
         <h3>Add Product</h3>
-        <form action='cont/addProduct.cont.php' method='post'>
+        <form action='../model/addProduct.model.php' method='post'>
             <input type='text' name='addProduct' placeholder='Name...' required>
             <input type='number' name='price' placeholder="Price..." min=0 step=any required>
             <input type='submit' value='Add Product'>
         </form>
     </div>
-
+ <!-- Form dat wijzigingen van artikelen verstuurd naar de DB -->
     <div class="custform">
-        <h3>Customize Product</h3>
-        <form action='cont/custProduct.cont.php' method='post'>
-            <input type='text' name='costProduct' placeholder='Name...'>
-            <input type='number' name='costPrice' placeholder="Price..." min=0 step=any >
+        <h3>Edit Product Price</h3>
+        <form action='../model/editProduct.model.php' method='post'>
+            <input type='text' name='editproduct' placeholder='Name...'>
+            <input type='number' name='editprice' placeholder="Price..." min=0 step=any >
             <input type='submit' value='Change Product'>
         </form>
     </div>
