@@ -48,10 +48,14 @@ li > a:hover{
     text-shadow: 8px 10px 15px black;
 }
 
-table, tr, td,th {
-    border: 1px solid black;
+tr, td,th {
+    border: 2px solid rgb(147, 147, 147);
+    padding: 5px;
+    border-radius: 8px;
 }
 table{
+    margin: 20px;
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
     }

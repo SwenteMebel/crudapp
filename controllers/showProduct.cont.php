@@ -15,7 +15,7 @@ while ($row = $result->fetch()){
 
     echo <<<_END
     
-    <tr><td>$id</td><td>$prod</td><td>$pric</td><td><a href='products.php'>Edit</a></td><td>
+    <tr><td>$id</td><td>$prod</td><td>$pric</td><td><button href='products.php'>Edit</button></td><td>
     <form method='post' action='../model/delProduct.model.php'>
     <input type='hidden' name='delete' value='yes'>
     <input type='hidden' name='id' value='$id'>
