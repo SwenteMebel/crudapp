@@ -10,8 +10,9 @@ if(isset($_POST['editproduct']) && isset($_POST['editprice'])){
 
     $query = "UPDATE product SET price='$editprice' WHERE name='$product'";
     $result = $pdo->query($query);
-    header("Location: ../index.php");
+    header("Location: ../products.php");
     exit();
 } else {
-    echo "Can't find $product , try again.";
+    echo "<span>Can't find $product , try again.</span>";
+    exit();
 }

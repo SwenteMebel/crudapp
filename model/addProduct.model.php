@@ -17,3 +17,4 @@ if(isset($_POST['addProduct']) && isset($_POST['price'])){
     header('Location: ../products.php');
     exit();   
 }
+

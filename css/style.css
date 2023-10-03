@@ -5,26 +5,28 @@ body{
 }
 
 .page-header{
-background-color: rgb(82, 88, 88);
+background-color: rgb(151, 159, 159);
 display: grid;
 grid-template-columns: 15% 70%;
-border-bottom: 2px solid rgb(255, 0, 0);
+box-shadow: 1px 10px 20px black;
 opacity: 0.4;
 }
 .page-header:hover{
     opacity: 1;
 }
+
 .logo{
-background-color: black;
+background-color: rgb(134, 133, 133);
 display: flex;
 justify-content: center;
 align-items: center;
-
 }
-.navbar{
-background-color: rgb(82, 88, 88);
-
+.logo > a{
+    text-decoration:  none;
+    color: black;
+    font-size: 18px;
 }
+
 ul{
     display: flex;
     justify-content: space-evenly;
@@ -36,16 +38,53 @@ li > a{
     text-decoration: none;
     font-family: 'EB Garamond', serif;
     font-size: 18px;
-    color:beige;
+    font-weight: 600;
+    color:rgb(23, 23, 20);
 }
 li > a:hover{
-    background-color: rgb(182, 174, 189);
-    border: 2px solid black;
-    padding: 3px 10px;
-    border-radius: 4px;
+    font-size: 20px;
+    font-weight: 900;
     color: rgb(0, 0, 0); 
+    text-shadow: 8px 10px 15px black;
 }
-table, th, td {
+
+table, tr, td,th {
     border: 1px solid black;
-   
 }
+table{
+    display: flex;
+    justify-content: space-evenly;
+    }
+
+.forums{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    margin-top: 5%;
+    column-gap: 10px;
+}
+.form{
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+.form input{
+    background-color: rgb(151, 159, 159);
+    border: 0px;
+    padding: 5px;
+    margin: 3px;
+    color: rgb(0, 0, 0);
+    border-radius: 8px;
+    font-weight: 700;
+}.form input:hover{
+    background-color: beige;
+    color: black;
+}
+.overzicht {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+} 
+
+
+

@@ -21,7 +21,7 @@ while ($row = $result->fetch()){
     <input type='hidden' name='id' value='$id'>
     <input type='submit' value='Delete'>
     
-    <form></td></tr>
+    </form></td></tr>
 
     _END;
 }
