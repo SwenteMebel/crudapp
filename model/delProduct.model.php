@@ -9,5 +9,5 @@ if(isset($_POST['delete']) && isset($_POST['id'])){
     $id = get_post($pdo, $_POST['id']); 
     $query = "DELETE FROM product WHERE id=$id";
     $result = $pdo->query($query);
-    header("Location: ../products.php");
+    header("Location: ../index.php");
 }

@@ -28,7 +28,7 @@
     <!-- Form dat wijzigingen van artikelen verstuurd naar de DB -->
         <div class="form">
             <h3>Edit Product Price</h3>
-            <form action='controllers/editProduct.model.php' method='post'>
+            <form action='model/editProduct.model.php' method='post'>
                 <input type='text' name='editproduct' placeholder='Name...' required>
                 <input type='number' name='editprice' placeholder="New Price..." min=0 step=any required >
                 <input type='submit' value='Change Product'>
